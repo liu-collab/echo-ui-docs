@@ -1,3 +1,3 @@
-import Button from './button/button.vue';
-
-export { Button };
+import EButton from './button/button.vue';
+import '../styles/button.scss';
+export { EButton };

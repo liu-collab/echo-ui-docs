@@ -6,17 +6,17 @@
       >
       <span>{{ count }}</span>
     </p>
-    <Button @click="onClick">按钮</Button>
+    <EButton @click="onClick" type="primary">按钮</EButton>
   </div>
 </template>
 
 <script lang="ts">
-import { Button } from 'echo-ui-docs';
+import { EButton } from 'echo-ui-docs';
 import { ref } from 'vue';
 
 export default {
   components: {
-    Button,
+    EButton,
   },
   setup() {
     const count = ref(0);

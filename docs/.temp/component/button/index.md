@@ -1,7 +1,7 @@
 ---
 map:
-  # 映射到docs的路径
   path: /components/button
+  realPath: src\button\index.zh-CN.md
 ---
 
 # Button
