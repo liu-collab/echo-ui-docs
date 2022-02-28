@@ -27,6 +27,7 @@ module.exports = {
           { text: '介绍', link: '/' },
           { text: 'Button', link: '/components/button/' },
           { text: 'Icon', link: '/components/icon/' },
+          { text: 'ButtonGroup', link: '/components/buttongroup/' },
         ],
       },
       '/en/': {

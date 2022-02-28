@@ -4,6 +4,12 @@ map:
   path: /components/button
 ---
 
+### 使用方法
+
+```ts
+import { EButton } from 'echo-echonpm-ui';
+```
+
 # Button
 
 这是一个简单的按钮。
@@ -18,15 +24,39 @@ map:
   desc="点击切换。">
 </demo>
 
+### 禁用状态
+
+<demo src="./demo/disable.vue"
+language="vue"
+title="禁用用法"
+desc="点击切换">
+</demo>
+
+### 尺寸
+
+<demo src="./demo/size.vue"
+language="vue"
+title="尺寸用法"
+desc="点击切换">
+</demo>
+
+### 加载按钮
+
+<demo src="./demo/loading.vue"
+language="vue"
+title="加载按钮"
+desc="点击切换">
+</demo>
+
 ## API
 
-```ts
-import { EButton } from 'echo-ui-docs';
-```
-
-## Props
-
-| 参数  | 说明 |   类型 |         值 |
-| ----- | ---: | -----: | ---------: |
-| size  | 大小 | string | 例如'16px' |
-| color | 颜色 | string |  例如'red' |
+| 参数       |           说明 |   类型 | 默认值 |                  可选值 |
+| ---------- | -------------: | -----: | -----: | ----------------------: |
+| size       |           大小 | string | medium | large/medium/small/mini |
+| color      |           颜色 | string | string |                    \_\_ |
+| disable    |           禁用 | Boolon |  false |                    \_\_ |
+| plain      |       朴素按钮 | Boolon |  false |                    \_\_ |
+| loading    |       加载按钮 | Boolon |  false |                    \_\_ |
+| circle     |       圆形按钮 | Boolon |  false |                    \_\_ |
+| autofocus  |       自动聚焦 | Boolon |  false |                    \_\_ |
+| nativeType | 原生 type 属性 | Boolon |  False |                    \_\_ |
