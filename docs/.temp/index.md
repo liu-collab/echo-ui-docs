@@ -4,15 +4,15 @@
 
 ## 安装
 
-```
+```js
 npm install -S echo-echonpm-ui
 ```
 
 ### 引入
 
-```
-import EchoUI from 'echo-echonpm-ui'
-import 'echo-echonpm-ui/lib/echo-echonpm-ui.css'
+```js
+import EchoUI from 'echo-echonpm-ui';
+import 'echo-echonpm-ui/lib/echo-echonpm-ui.css';
 
-createApp(App).use(EchoUI)
+createApp(App).use(EchoUI);
 ```

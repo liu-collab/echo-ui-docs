@@ -19,33 +19,25 @@ import { EButton } from 'echo-echonpm-ui';
 ### 基本用法
 
 <demo src="./demo/demo.vue"
-  language="vue"
-  title="基本用法"
-  desc="点击切换。">
+  language="vue">
 </demo>
 
 ### 禁用状态
 
 <demo src="./demo/disable.vue"
-language="vue"
-title="禁用用法"
-desc="点击切换">
+language="vue">
 </demo>
 
 ### 尺寸
 
 <demo src="./demo/size.vue"
-language="vue"
-title="尺寸用法"
-desc="点击切换">
+language="vue">
 </demo>
 
 ### 加载按钮
 
 <demo src="./demo/loading.vue"
-language="vue"
-title="加载按钮"
-desc="点击切换">
+language="vue">
 </demo>
 
 ## API

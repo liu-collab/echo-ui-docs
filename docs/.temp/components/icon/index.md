@@ -1,7 +1,7 @@
 ---
 map:
   path: /components/icon
-  realPath: src/icon/index.zh-CN.md
+  realPath: src\icon\index.zh-CN.md
 ---
 
 ### icon
@@ -15,7 +15,5 @@ import { EIcon } from 'echo-echonpm-ui';
 ### 基本用法
 
 <demo src="./demo/demo.vue"
-language="vue"
-  title="基本用法"
-  desc="点击切换。">
+language="vue">
 </demo>
