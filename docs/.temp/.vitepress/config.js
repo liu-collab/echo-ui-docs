@@ -28,6 +28,7 @@ module.exports = {
           { text: 'Button', link: '/components/button/' },
           { text: 'Icon', link: '/components/icon/' },
           { text: 'ButtonGroup', link: '/components/buttongroup/' },
+          { text: 'Alert', link: '/components/alert/' },
         ],
       },
       '/en/': {

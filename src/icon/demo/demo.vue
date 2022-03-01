@@ -7,9 +7,9 @@
     <p>设置icon属性使用</p>
     <EButton icon="edit" type="primary">button</EButton>
     <p>
-      图标合集见<EButton type="text"
-        >https://doc-archive.element-plus.org/#/zh-CN/component/icon</EButton
-      >
+      图标合集见<EButton type="text" @click="handleClick"
+        ><EIcon name="link"></EIcon
+      ></EButton>
     </p>
   </div>
 </template>
@@ -20,6 +20,16 @@ export default {
   components: {
     EIcon,
     EButton,
+  },
+  setup() {
+    const handleClick = () => {
+      window.open(
+        'https://doc-archive.element-plus.org/#/zh-CN/component/icon',
+      );
+    };
+    return {
+      handleClick,
+    };
   },
 };
 </script>
