@@ -1,7 +1,7 @@
 ---
 map:
   path: /components/buttongroup
-  realPath: src\buttongroup\index.zh-CN.md
+  realPath: src/buttongroup/index.zh-CN.md
 ---
 
 ### 使用方法
