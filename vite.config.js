@@ -12,6 +12,9 @@ export default {
     exclude: [],
   },
   plugins: [vue(), vueJsx()],
+  resolve: {
+    extensions: ['.js', '.mjs'],
+  },
   build: {
     minify: true,
     base: '/',
