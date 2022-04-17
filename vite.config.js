@@ -14,7 +14,7 @@ export default {
   plugins: [vue(), vueJsx()],
   build: {
     minify: true,
-    base: '/',
+    base: '/docs/dist',
     lib: {
       entry: path.resolve(__dirname, './src/index.ts'),
       name: 'echo-ui-docs',
