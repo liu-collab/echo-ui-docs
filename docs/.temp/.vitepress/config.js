@@ -6,6 +6,9 @@ module.exports = {
   description: '',
   // 扫描srcIncludes里面的 *.md文件
   srcIncludes: ['src'],
+  resolve: {
+    extensions: ['.js', '.mjs'],
+  },
   alias: {
     // 为了能在demo中正确的使用  import { X } from 'echo-ui-docs'
     [`echo-ui-docs`]: resolve('./src'),

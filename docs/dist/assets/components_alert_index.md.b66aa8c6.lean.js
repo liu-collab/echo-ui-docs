@@ -196,7 +196,7 @@ const H = {
     },
   },
   J =
-    '{"title":"Alert","description":"","frontmatter":{"map":{"path":"/components/alert","realPath":"src/alert/index.zh-CN.md"}},"headers":[{"level":3,"title":"Alert","slug":"alert"},{"level":3,"title":"使用方法","slug":"使用方法"},{"level":3,"title":"基本用法","slug":"基本用法"},{"level":3,"title":"主题","slug":"主题"},{"level":3,"title":"自定义关闭按钮","slug":"自定义关闭按钮"},{"level":3,"title":"带有图标的消息提示","slug":"带有图标的消息提示"},{"level":3,"title":"文字居中","slug":"文字居中"},{"level":3,"title":"文字描述","slug":"文字描述"},{"level":3,"title":"API","slug":"api"},{"level":3,"title":"Event","slug":"event"}],"relativePath":"components/alert/index.md","lastUpdated":1650184877764}',
+    '{"title":"Alert","description":"","frontmatter":{"map":{"path":"/components/alert","realPath":"src/alert/index.zh-CN.md"}},"headers":[{"level":3,"title":"Alert","slug":"alert"},{"level":3,"title":"使用方法","slug":"使用方法"},{"level":3,"title":"基本用法","slug":"基本用法"},{"level":3,"title":"主题","slug":"主题"},{"level":3,"title":"自定义关闭按钮","slug":"自定义关闭按钮"},{"level":3,"title":"带有图标的消息提示","slug":"带有图标的消息提示"},{"level":3,"title":"文字居中","slug":"文字居中"},{"level":3,"title":"文字描述","slug":"文字描述"},{"level":3,"title":"API","slug":"api"},{"level":3,"title":"Event","slug":"event"}],"relativePath":"components/alert/index.md","lastUpdated":1650186865443}',
   K = o('', 4),
   L = e(
     'h3',

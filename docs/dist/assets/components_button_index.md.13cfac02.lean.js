@@ -10,7 +10,7 @@ import {
   b as e,
   a as c,
 } from './app.7a847cd1.js';
-import { d as l } from './demo.fc6c39d7.js';
+import { d as l } from './demo.a6149ccc.js';
 const u = { components: { EButton: n } },
   F = o('loading...'),
   D = o('loading...'),
@@ -171,7 +171,7 @@ const V = {
     },
   },
   R =
-    '{"title":"使用方法","description":"","frontmatter":{"map":{"path":"/components/button","realPath":"src/button/index.zh-CN.md"}},"headers":[{"level":3,"title":"使用方法","slug":"使用方法"},{"level":2,"title":"代码演示","slug":"代码演示"},{"level":3,"title":"基本用法","slug":"基本用法"},{"level":3,"title":"禁用状态","slug":"禁用状态"},{"level":3,"title":"尺寸","slug":"尺寸"},{"level":3,"title":"加载按钮","slug":"加载按钮"},{"level":2,"title":"API","slug":"api"}],"relativePath":"components/button/index.md","lastUpdated":1650184877764}',
+    '{"title":"使用方法","description":"","frontmatter":{"map":{"path":"/components/button","realPath":"src/button/index.zh-CN.md"}},"headers":[{"level":3,"title":"使用方法","slug":"使用方法"},{"level":2,"title":"代码演示","slug":"代码演示"},{"level":3,"title":"基本用法","slug":"基本用法"},{"level":3,"title":"禁用状态","slug":"禁用状态"},{"level":3,"title":"尺寸","slug":"尺寸"},{"level":3,"title":"加载按钮","slug":"加载按钮"},{"level":2,"title":"API","slug":"api"}],"relativePath":"components/button/index.md","lastUpdated":1650186865442}',
   U = c('', 6),
   G = e(
     'h3',

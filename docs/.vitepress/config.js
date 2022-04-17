@@ -11,7 +11,7 @@ module.exports = {
   },
   alias: {
     // 为了能在demo中正确的使用  import { X } from 'echo-ui-docs'
-    [`echo-ui-docs`]: resolve(__dirname, './src'),
+    [`echo-ui-docs`]: resolve('./src'),
   },
   base,
   themeConfig: {
