@@ -1,12 +1,12 @@
-import { b as e, c as n } from './alert.f2387c87.js';
+import { a as e, b as n } from './alert.e9f00128.js';
 import {
   _ as t,
   j as l,
   r as a,
   o as u,
   c as i,
-  b as c,
-  m as r,
+  b as r,
+  m as c,
   d,
   w as o,
   e as p,
@@ -23,7 +23,7 @@ const s = {
       };
     },
   },
-  f = c(
+  f = r(
     'span',
     { style: { padding: '0 16px 0 4px', 'font-size': '14px', color: '#777' } },
     '点击次数:',
@@ -36,7 +36,7 @@ const s = {
   g = p('danger'),
   b = p('warning'),
   C = p('link'),
-  w = c('br', null, null, -1),
+  w = r('br', null, null, -1),
   x = p('default button'),
   v = p(' primary button'),
   E = p('info'),
@@ -44,7 +44,7 @@ const s = {
   h = p('danger'),
   B = p('warning'),
   I = p('link'),
-  z = c('br', null, null, -1),
+  z = r('br', null, null, -1),
   q = p('default button'),
   A = p(' primary button'),
   D = p('info'),
@@ -52,7 +52,7 @@ const s = {
   G = p('danger'),
   H = p('warning'),
   J = p('link'),
-  K = c('br', null, null, -1);
+  K = r('br', null, null, -1);
 var L = t(s, [
   [
     'render',
@@ -64,8 +64,8 @@ var L = t(s, [
       return (
         u(),
         i('div', null, [
-          c('p', null, [f, c('span', null, r(l.count), 1)]),
-          c('div', null, [
+          r('p', null, [f, r('span', null, c(l.count), 1)]),
+          r('div', null, [
             d(L, { onClick: l.onClick }, { default: o(() => [y]), _: 1 }, 8, [
               'onClick',
             ]),
@@ -77,7 +77,7 @@ var L = t(s, [
             d(M, { type: 'text' }, { default: o(() => [C]), _: 1 }),
           ]),
           w,
-          c('div', null, [
+          r('div', null, [
             d(
               L,
               { onClick: l.onClick, plain: '' },
@@ -109,7 +109,7 @@ var L = t(s, [
             d(M, { type: 'text', plain: '' }, { default: o(() => [I]), _: 1 }),
           ]),
           z,
-          c('div', null, [
+          r('div', null, [
             d(
               L,
               { onClick: l.onClick, round: '' },
@@ -141,7 +141,7 @@ var L = t(s, [
             d(M, { type: 'text', round: '' }, { default: o(() => [J]), _: 1 }),
           ]),
           K,
-          c('div', null, [
+          r('div', null, [
             d(
               L,
               { onClick: l.onClick, circle: '' },

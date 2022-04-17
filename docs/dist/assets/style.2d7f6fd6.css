@@ -2840,6 +2840,9 @@ a.sidebar-link[data-v-0381b7ca] {
 .e-alert-fade-leave-active {
   opacity: 0;
 }
+i[class^='e-icon'] {
+  font-size: 20px;
+}
 .home-hero[data-v-4aeb51c6] {
   margin: 2.5rem 0 2.75rem;
   padding: 0 1.5rem;
