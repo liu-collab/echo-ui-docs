@@ -1,4 +1,4 @@
-import { a as e, b as n } from './alert.e9f00128.js';
+import { a as e, b as n } from './alert.57d1d57b.js';
 import {
   _ as t,
   j as l,
@@ -33,8 +33,8 @@ const s = {
   _ = p(' primary button'),
   m = p('info'),
   k = p('success'),
-  g = p('danger'),
-  b = p('warning'),
+  b = p('danger'),
+  g = p('warning'),
   C = p('link'),
   w = r('br', null, null, -1),
   x = p('default button'),
@@ -72,8 +72,8 @@ var L = t(s, [
             d(M, { type: 'primary' }, { default: o(() => [_]), _: 1 }),
             d(M, { type: 'info' }, { default: o(() => [m]), _: 1 }),
             d(M, { type: 'success' }, { default: o(() => [k]), _: 1 }),
-            d(M, { type: 'danger' }, { default: o(() => [g]), _: 1 }),
-            d(M, { type: 'warning' }, { default: o(() => [b]), _: 1 }),
+            d(M, { type: 'danger' }, { default: o(() => [b]), _: 1 }),
+            d(M, { type: 'warning' }, { default: o(() => [g]), _: 1 }),
             d(M, { type: 'text' }, { default: o(() => [C]), _: 1 }),
           ]),
           w,

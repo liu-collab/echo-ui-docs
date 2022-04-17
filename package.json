@@ -15,7 +15,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vitepress-fc dev --root=docs --host",
-    "build": "vite build",
+    "build": "vitepress-fc build",
     "type": "vue-tsc --declaration --emitDeclarationOnly",
     "test": "jest",
     "docs-build": "rimraf docs/dist && cross-env NODE_ENV=production vitepress-fc build --root=docs",

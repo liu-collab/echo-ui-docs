@@ -16,7 +16,7 @@ export default {
   build: {
     minify: true,
     lib: {
-      entry: resolve('./src/index.ts'),
+      entry: resolve(__dirname, './src/index.ts'),
       name: 'echo-ui-docs',
     },
     rollupOptions: {
