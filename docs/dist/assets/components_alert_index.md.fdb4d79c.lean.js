@@ -1,4 +1,4 @@
-import { E as a } from './alert.57d1d57b.js';
+import { E as a } from './alert.aa81e210.js';
 import {
   _ as n,
   r as s,
@@ -9,7 +9,7 @@ import {
   w as C,
   a as o,
   e as l,
-} from './app.66e4ec4d.js';
+} from './app.7a847cd1.js';
 const c = { components: { EAlert: a } },
   u = e('br', null, null, -1);
 var F = n(c, [
@@ -196,7 +196,7 @@ const H = {
     },
   },
   J =
-    '{"title":"Alert","description":"","frontmatter":{"map":{"path":"/components/alert","realPath":"src/alert/index.zh-CN.md"}},"headers":[{"level":3,"title":"Alert","slug":"alert"},{"level":3,"title":"使用方法","slug":"使用方法"},{"level":3,"title":"基本用法","slug":"基本用法"},{"level":3,"title":"主题","slug":"主题"},{"level":3,"title":"自定义关闭按钮","slug":"自定义关闭按钮"},{"level":3,"title":"带有图标的消息提示","slug":"带有图标的消息提示"},{"level":3,"title":"文字居中","slug":"文字居中"},{"level":3,"title":"文字描述","slug":"文字描述"},{"level":3,"title":"API","slug":"api"},{"level":3,"title":"Event","slug":"event"}],"relativePath":"components/alert/index.md","lastUpdated":1650181326567}',
+    '{"title":"Alert","description":"","frontmatter":{"map":{"path":"/components/alert","realPath":"src/alert/index.zh-CN.md"}},"headers":[{"level":3,"title":"Alert","slug":"alert"},{"level":3,"title":"使用方法","slug":"使用方法"},{"level":3,"title":"基本用法","slug":"基本用法"},{"level":3,"title":"主题","slug":"主题"},{"level":3,"title":"自定义关闭按钮","slug":"自定义关闭按钮"},{"level":3,"title":"带有图标的消息提示","slug":"带有图标的消息提示"},{"level":3,"title":"文字居中","slug":"文字居中"},{"level":3,"title":"文字描述","slug":"文字描述"},{"level":3,"title":"API","slug":"api"},{"level":3,"title":"Event","slug":"event"}],"relativePath":"components/alert/index.md","lastUpdated":1650184877764}',
   K = o('', 4),
   L = e(
     'h3',

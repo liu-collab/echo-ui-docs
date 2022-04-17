@@ -1,4 +1,4 @@
-import { a as n } from './alert.57d1d57b.js';
+import { a as n } from './alert.aa81e210.js';
 import {
   _ as a,
   r as s,
@@ -9,8 +9,8 @@ import {
   e as o,
   b as e,
   a as c,
-} from './app.66e4ec4d.js';
-import { d as l } from './demo.a3a7037a.js';
+} from './app.7a847cd1.js';
+import { d as l } from './demo.fc6c39d7.js';
 const u = { components: { EButton: n } },
   F = o('loading...'),
   D = o('loading...'),
@@ -171,11 +171,8 @@ const V = {
     },
   },
   R =
-    '{"title":"使用方法","description":"","frontmatter":{"map":{"path":"/components/button","realPath":"src/button/index.zh-CN.md"}},"headers":[{"level":3,"title":"使用方法","slug":"使用方法"},{"level":2,"title":"代码演示","slug":"代码演示"},{"level":3,"title":"基本用法","slug":"基本用法"},{"level":3,"title":"禁用状态","slug":"禁用状态"},{"level":3,"title":"尺寸","slug":"尺寸"},{"level":3,"title":"加载按钮","slug":"加载按钮"},{"level":2,"title":"API","slug":"api"}],"relativePath":"components/button/index.md","lastUpdated":1650181326567}',
-  U = c(
-    '<h3 id="使用方法"><a class="header-anchor" href="#使用方法" aria-hidden="true">#</a> 使用方法</h3><div class="language-ts"><pre><code><span class="token keyword">import</span> <span class="token punctuation">{</span> EButton <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;echo-echonpm-ui&#39;</span><span class="token punctuation">;</span>\n</code></pre></div><h1 id="button"><a class="header-anchor" href="#button" aria-hidden="true">#</a> Button</h1><p>这是一个简单的按钮。</p><h2 id="代码演示"><a class="header-anchor" href="#代码演示" aria-hidden="true">#</a> 代码演示</h2><h3 id="基本用法"><a class="header-anchor" href="#基本用法" aria-hidden="true">#</a> 基本用法</h3>',
-    6,
-  ),
+    '{"title":"使用方法","description":"","frontmatter":{"map":{"path":"/components/button","realPath":"src/button/index.zh-CN.md"}},"headers":[{"level":3,"title":"使用方法","slug":"使用方法"},{"level":2,"title":"代码演示","slug":"代码演示"},{"level":3,"title":"基本用法","slug":"基本用法"},{"level":3,"title":"禁用状态","slug":"禁用状态"},{"level":3,"title":"尺寸","slug":"尺寸"},{"level":3,"title":"加载按钮","slug":"加载按钮"},{"level":2,"title":"API","slug":"api"}],"relativePath":"components/button/index.md","lastUpdated":1650184877764}',
+  U = c('', 6),
   G = e(
     'h3',
     { id: '禁用状态' },
@@ -215,10 +212,7 @@ const V = {
     ],
     -1,
   ),
-  K = c(
-    '<h2 id="api"><a class="header-anchor" href="#api" aria-hidden="true">#</a> API</h2><table><thead><tr><th>参数</th><th style="text-align:right;">说明</th><th style="text-align:right;">类型</th><th style="text-align:right;">默认值</th><th style="text-align:right;">可选值</th></tr></thead><tbody><tr><td>size</td><td style="text-align:right;">大小</td><td style="text-align:right;">string</td><td style="text-align:right;">medium</td><td style="text-align:right;">large/medium/small/mini</td></tr><tr><td>color</td><td style="text-align:right;">颜色</td><td style="text-align:right;">string</td><td style="text-align:right;">string</td><td style="text-align:right;">__</td></tr><tr><td>disable</td><td style="text-align:right;">禁用</td><td style="text-align:right;">Boolon</td><td style="text-align:right;">false</td><td style="text-align:right;">__</td></tr><tr><td>plain</td><td style="text-align:right;">朴素按钮</td><td style="text-align:right;">Boolon</td><td style="text-align:right;">false</td><td style="text-align:right;">__</td></tr><tr><td>loading</td><td style="text-align:right;">加载按钮</td><td style="text-align:right;">Boolon</td><td style="text-align:right;">false</td><td style="text-align:right;">__</td></tr><tr><td>circle</td><td style="text-align:right;">圆形按钮</td><td style="text-align:right;">Boolon</td><td style="text-align:right;">false</td><td style="text-align:right;">__</td></tr><tr><td>autofocus</td><td style="text-align:right;">自动聚焦</td><td style="text-align:right;">Boolon</td><td style="text-align:right;">false</td><td style="text-align:right;">__</td></tr><tr><td>nativeType</td><td style="text-align:right;">原生 type 属性</td><td style="text-align:right;">Boolon</td><td style="text-align:right;">False</td><td style="text-align:right;">__</td></tr></tbody></table>',
-    2,
-  );
+  K = c('', 2);
 var L = a(V, [
   [
     'render',

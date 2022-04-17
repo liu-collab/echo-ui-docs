@@ -17,7 +17,7 @@ import {
   r as p,
   d as h,
   i as k,
-} from './app.66e4ec4d.js';
+} from './app.7a847cd1.js';
 const y = { key: 0, class: 'home-hero' },
   g = { key: 0, class: 'figure' },
   x = ['src', 'alt'],

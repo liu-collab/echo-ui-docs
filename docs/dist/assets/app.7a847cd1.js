@@ -3824,7 +3824,7 @@ function vs(e, t) {
 function ms(e) {
   let t = e.replace(/\.html$/, '');
   if ((t.endsWith('/') && (t += 'index'), hs)) {
-    const e = '/echo-ui-docs/';
+    const e = '/';
     t = t.slice(e.length).replace(/\//g, '_') + '.md';
     const n = __VP_HASH_MAP__[t.toLowerCase()];
     t = `${e}assets/${t}.${n}.js`;
@@ -4185,7 +4185,7 @@ const Ks = tn({
 });
 const Js = xt(
   ((Ys =
-    '{"lang":"en-US","title":"echo-ui-docs","description":"A VitePress site","base":"/echo-ui-docs/","head":[],"themeConfig":{"nav":[{"text":"demo","link":"/math"}],"lang":"zh-CN","locales":{"/":{"lang":"zh-CN","title":"echo-ui-docs","description":"","label":"中文","selectText":"语言","nav":[{"text":"指南","link":"/"}],"sidebar":[{"text":"介绍","link":"/"},{"text":"Button","link":"/components/button/"},{"text":"Icon","link":"/components/icon/"},{"text":"ButtonGroup","link":"/components/buttongroup/"},{"text":"Alert","link":"/components/alert/"}]},"/en/":{"lang":"en-US","title":"echo-ui-docs","description":"","label":"English","selectText":"Languages","nav":[{"text":"Guide","link":"/"}],"sidebar":[{"text":"Getting Started","link":"/en/"},{"text":"Button","link":"/en/components/button/"},{"text":"Icon","link":"/components/icon/"}]}},"search":{"searchMaxSuggestions":10},"repo":"echo/echo-ui-docs","repoLabel":"Github","lastUpdated":true,"prevLink":true,"nextLink":true},"locales":{},"customData":{}}'),
+    '{"lang":"en-US","title":"echo-ui-docs","description":"A VitePress site","base":"/","head":[],"themeConfig":{"nav":[{"text":"demo","link":"/math"}],"lang":"zh-CN","locales":{"/":{"lang":"zh-CN","title":"echo-ui-docs","description":"","label":"中文","selectText":"语言","nav":[{"text":"指南","link":"/"}],"sidebar":[{"text":"介绍","link":"/"},{"text":"Button","link":"/components/button/"},{"text":"Icon","link":"/components/icon/"},{"text":"ButtonGroup","link":"/components/buttongroup/"},{"text":"Alert","link":"/components/alert/"}]},"/en/":{"lang":"en-US","title":"echo-ui-docs","description":"","label":"English","selectText":"Languages","nav":[{"text":"Guide","link":"/"}],"sidebar":[{"text":"Getting Started","link":"/en/"},{"text":"Button","link":"/en/components/button/"},{"text":"Icon","link":"/components/icon/"}]}},"search":{"searchMaxSuggestions":10},"repo":"echo/echo-ui-docs","repoLabel":"Github","lastUpdated":true,"prevLink":true,"nextLink":true},"locales":{},"customData":{}}'),
   ut(JSON.parse(Ys))),
 );
 var Ys;
@@ -5239,7 +5239,7 @@ var Ni = ws(
 const Vi = { key: 0, id: 'ads-container' },
   zi = tn({
     setup(e) {
-      const t = on(() => import('./Home.0bcd87e5.js')),
+      const t = on(() => import('./Home.dd313db0.js')),
         n = () => null,
         o = n,
         r = n,

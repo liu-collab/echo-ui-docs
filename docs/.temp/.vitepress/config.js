@@ -1,4 +1,4 @@
-const base = process.env.NODE_ENV === 'production' ? '/echo-ui-docs' : '';
+const base = process.env.NODE_ENV === 'production' ? '/' : '';
 const { resolve } = require('path');
 
 module.exports = {
