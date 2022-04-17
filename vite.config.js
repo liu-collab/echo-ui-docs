@@ -2,8 +2,7 @@
 
 import vue from '@vitejs/plugin-vue';
 import vueJsx from '@vitejs/plugin-vue-jsx';
-import { resolve } from 'path';
-
+import path from 'path';
 /**
  * @type {import('vite').UserConfig}
  */
@@ -16,7 +15,7 @@ export default {
   build: {
     minify: true,
     lib: {
-      entry: resolve(__dirname, './src/index.ts'),
+      entry: path.resolve(__dirname, './src/index.ts'),
       name: 'echo-ui-docs',
     },
     rollupOptions: {
