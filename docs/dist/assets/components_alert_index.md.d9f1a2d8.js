@@ -196,8 +196,11 @@ const H = {
     },
   },
   J =
-    '{"title":"Alert","description":"","frontmatter":{"map":{"path":"/components/alert","realPath":"src/alert/index.zh-CN.md"}},"headers":[{"level":3,"title":"Alert","slug":"alert"},{"level":3,"title":"使用方法","slug":"使用方法"},{"level":3,"title":"基本用法","slug":"基本用法"},{"level":3,"title":"主题","slug":"主题"},{"level":3,"title":"自定义关闭按钮","slug":"自定义关闭按钮"},{"level":3,"title":"带有图标的消息提示","slug":"带有图标的消息提示"},{"level":3,"title":"文字居中","slug":"文字居中"},{"level":3,"title":"文字描述","slug":"文字描述"},{"level":3,"title":"API","slug":"api"},{"level":3,"title":"Event","slug":"event"}],"relativePath":"components/alert/index.md","lastUpdated":1650178630925}',
-  K = o('', 4),
+    '{"title":"Alert","description":"","frontmatter":{"map":{"path":"/components/alert","realPath":"src/alert/index.zh-CN.md"}},"headers":[{"level":3,"title":"Alert","slug":"alert"},{"level":3,"title":"使用方法","slug":"使用方法"},{"level":3,"title":"基本用法","slug":"基本用法"},{"level":3,"title":"主题","slug":"主题"},{"level":3,"title":"自定义关闭按钮","slug":"自定义关闭按钮"},{"level":3,"title":"带有图标的消息提示","slug":"带有图标的消息提示"},{"level":3,"title":"文字居中","slug":"文字居中"},{"level":3,"title":"文字描述","slug":"文字描述"},{"level":3,"title":"API","slug":"api"},{"level":3,"title":"Event","slug":"event"}],"relativePath":"components/alert/index.md","lastUpdated":1650181326567}',
+  K = o(
+    '<h3 id="alert"><a class="header-anchor" href="#alert" aria-hidden="true">#</a> Alert</h3><h3 id="使用方法"><a class="header-anchor" href="#使用方法" aria-hidden="true">#</a> 使用方法</h3><div class="language-ts"><pre><code><span class="token keyword">import</span> <span class="token punctuation">{</span> EAlert <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;echo-echonpm-ui&#39;</span><span class="token punctuation">;</span>\n</code></pre></div><h3 id="基本用法"><a class="header-anchor" href="#基本用法" aria-hidden="true">#</a> 基本用法</h3>',
+    4,
+  ),
   L = e(
     'h3',
     { id: '主题' },
@@ -292,7 +295,10 @@ const H = {
     ],
     -1,
   ),
-  Y = o('', 4);
+  Y = o(
+    '<h3 id="api"><a class="header-anchor" href="#api" aria-hidden="true">#</a> API</h3><table><thead><tr><th>参数</th><th style="text-align:right;">说明</th><th style="text-align:right;">类型</th><th style="text-align:right;">可选值</th><th style="text-align:right;">默认值</th></tr></thead><tbody><tr><td>title</td><td style="text-align:right;">标题</td><td style="text-align:right;">string</td><td style="text-align:right;">__</td><td style="text-align:right;">__</td></tr><tr><td>type</td><td style="text-align:right;">类型</td><td style="text-align:right;">string</td><td style="text-align:right;">success/error/info/warning/</td><td style="text-align:right;">info</td></tr><tr><td>description</td><td style="text-align:right;">描述</td><td style="text-align:right;">string</td><td style="text-align:right;">__</td><td style="text-align:right;">__</td></tr><tr><td>closeText</td><td style="text-align:right;">关闭的文本</td><td style="text-align:right;">string</td><td style="text-align:right;">__</td><td style="text-align:right;">__</td></tr><tr><td>closeable</td><td style="text-align:right;">是否关闭</td><td style="text-align:right;">Boolon</td><td style="text-align:right;">__</td><td style="text-align:right;">__</td></tr><tr><td>center</td><td style="text-align:right;">文字居中</td><td style="text-align:right;">Boolon</td><td style="text-align:right;">__</td><td style="text-align:right;">__</td></tr><tr><td>show-icon</td><td style="text-align:right;">图标</td><td style="text-align:right;">boolon</td><td style="text-align:right;">__</td><td style="text-align:right;">__</td></tr><tr><td>effect</td><td style="text-align:right;">主题</td><td style="text-align:right;">string</td><td style="text-align:right;">light/dark</td><td style="text-align:right;">light</td></tr></tbody></table><h3 id="event"><a class="header-anchor" href="#event" aria-hidden="true">#</a> Event</h3><table><thead><tr><th>参数</th><th style="text-align:right;">说明</th><th style="text-align:right;">回调参数</th></tr></thead><tbody><tr><td>close</td><td style="text-align:right;">关闭事件</td><td style="text-align:right;">__</td></tr></tbody></table>',
+    4,
+  );
 var Z = n(H, [
   [
     'render',

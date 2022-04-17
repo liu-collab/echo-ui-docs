@@ -10,7 +10,7 @@ import {
   b as e,
   a as c,
 } from './app.66e4ec4d.js';
-import { d as l } from './demo.c201570a.js';
+import { d as l } from './demo.a3a7037a.js';
 const u = { components: { EButton: n } },
   F = o('loading...'),
   D = o('loading...'),
@@ -171,7 +171,7 @@ const V = {
     },
   },
   R =
-    '{"title":"使用方法","description":"","frontmatter":{"map":{"path":"/components/button","realPath":"src/button/index.zh-CN.md"}},"headers":[{"level":3,"title":"使用方法","slug":"使用方法"},{"level":2,"title":"代码演示","slug":"代码演示"},{"level":3,"title":"基本用法","slug":"基本用法"},{"level":3,"title":"禁用状态","slug":"禁用状态"},{"level":3,"title":"尺寸","slug":"尺寸"},{"level":3,"title":"加载按钮","slug":"加载按钮"},{"level":2,"title":"API","slug":"api"}],"relativePath":"components/button/index.md","lastUpdated":1650178630925}',
+    '{"title":"使用方法","description":"","frontmatter":{"map":{"path":"/components/button","realPath":"src/button/index.zh-CN.md"}},"headers":[{"level":3,"title":"使用方法","slug":"使用方法"},{"level":2,"title":"代码演示","slug":"代码演示"},{"level":3,"title":"基本用法","slug":"基本用法"},{"level":3,"title":"禁用状态","slug":"禁用状态"},{"level":3,"title":"尺寸","slug":"尺寸"},{"level":3,"title":"加载按钮","slug":"加载按钮"},{"level":2,"title":"API","slug":"api"}],"relativePath":"components/button/index.md","lastUpdated":1650181326567}',
   U = c(
     '<h3 id="使用方法"><a class="header-anchor" href="#使用方法" aria-hidden="true">#</a> 使用方法</h3><div class="language-ts"><pre><code><span class="token keyword">import</span> <span class="token punctuation">{</span> EButton <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;echo-echonpm-ui&#39;</span><span class="token punctuation">;</span>\n</code></pre></div><h1 id="button"><a class="header-anchor" href="#button" aria-hidden="true">#</a> Button</h1><p>这是一个简单的按钮。</p><h2 id="代码演示"><a class="header-anchor" href="#代码演示" aria-hidden="true">#</a> 代码演示</h2><h3 id="基本用法"><a class="header-anchor" href="#基本用法" aria-hidden="true">#</a> 基本用法</h3>',
     6,

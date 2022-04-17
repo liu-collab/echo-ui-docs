@@ -1,7 +1,7 @@
 ---
 map:
   path: /components/alert
-  realPath: src/alert/index.zh-CN.md
+  realPath: src\alert\index.zh-CN.md
 ---
 
 ### Alert
