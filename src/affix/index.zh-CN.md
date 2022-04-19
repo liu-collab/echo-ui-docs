@@ -20,11 +20,15 @@ language="vue">
 
 ## 指定容器
 
+#### target 属性可以使用 css 选择器，指定容器
+
 <demo src="./demo/target.vue"
 language="vue">
 </demo>
 
 ## 固定位置
+
+#### 默认是 top，还可以是 bottom
 
 <demo src="./demo/position.vue"
 language="vue">
