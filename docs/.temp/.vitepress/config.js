@@ -32,6 +32,7 @@ module.exports = {
           { text: 'Icon', link: '/components/icon/' },
           { text: 'ButtonGroup', link: '/components/buttongroup/' },
           { text: 'Alert', link: '/components/alert/' },
+          { text: 'Affix', link: '/components/affix/' },
         ],
       },
       '/en/': {
