@@ -51,7 +51,7 @@ module.exports = {
     search: {
       searchMaxSuggestions: 10,
     },
-    repo: 'echo/echo-ui-docs',
+    repo: 'liu-collab/echo-ui',
     repoLabel: 'Github',
     lastUpdated: true,
     prevLink: true,
